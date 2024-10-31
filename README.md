@@ -1,8 +1,8 @@
 # Cloud_classification
 
-"Fruits!" is an Agritech startup focused on innovative solutions for fruit recognition and harvesting. Their product offerings include:
+"Fruits!" is an Agritech startup focused on advancing technology in the field of fruit recognition and harvesting. Their products include:
 
-- Development of intelligent fruit-picking robots
-- A mobile application for the general public that recognizes fruits and provides detailed information
+- Intelligent fruit-picking robots to streamline the harvesting process
+- A mobile application designed for the public to recognize different fruits and provide relevant information
 
-The mission of this project is to build an image processing pipeline that includes preprocessing and dimensionality reduction within a Big Data environment. This pipeline is crucial for enabling efficient data handling and analysis. Additionally, the project aims to plan for scalability to accommodate large volumes of data, ensuring the solution can grow with the increasing demands of the business.
+To support "Fruits!" in enhancing its recognition capabilities and scaling its operations, this project aims to develop a robust image processing and classification pipeline. This pipeline will incorporate automatic fruit classification using advanced preprocessing and dimensionality reduction techniques within a Big Data environment. By automating the fruit classification process, "Fruits!" can improve the accuracy and efficiency of its robotic harvesters and mobile app, allowing the company to manage large volumes of image data seamlessly. This scalable solution is essential for "Fruits!" to meet growing data demands and deliver reliable, high-quality classification results across its applications.
