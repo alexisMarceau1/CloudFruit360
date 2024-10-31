@@ -1,0 +1,21 @@
+- Lien Bucket S3 contenant les images initiale :
+
+ 	https://imagesp8alexis.s3.eu-west-3.amazonaws.com/
+
+- Lien Bucket S3 contenant les résultats :
+
+ 	https://p8alexis.s3.eu-west-3.amazonaws.com/
+
+- Liens image initiales, exemple :
+
+	https://imagesp8alexis.s3.eu-west-3.amazonaws.com/AppleGrannySmith/0_100.jpg
+	https://imagesp8alexis.s3.eu-west-3.amazonaws.com/Apricot/0_100.jpg
+	https://imagesp8alexis.s3.eu-west-3.amazonaws.com/Banana/56_100.jpg
+	https://imagesp8alexis.s3.eu-west-3.amazonaws.com/Fig/0_100.jpg
+	...
+
+- Liens résultats parquet :
+
+	https://p8alexis.s3.eu-west-3.amazonaws.com/results.parquet/part-00000-547e1f8c-f116-4156-af0f-cdd372660f4b-c000.snappy.parquet
+	https://p8alexis.s3.eu-west-3.amazonaws.com/results.parquet/part-00001-547e1f8c-f116-4156-af0f-cdd372660f4b-c000.snappy.parquet
+	...
