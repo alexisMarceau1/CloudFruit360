@@ -1,0 +1,83 @@
+sudo apt-get update
+sudo apt-get install python3-pip
+
+sudo apt-get install python3-venv
+python3 -m venv pyenv
+source pyenv/bin/activate
+
+pip3 install jupyterlab
+jupyter notebook --generate-config
+jupyter server password
+jupyter notebook password
+
+mkdir certs
+cd certs/
+openssl req -x509 -nodes -days 365 -newkey rsa:...
+
+cd ~/.jupyter/
+vim jupyter_notebook_config.py
+
+i
+
+c.IPKernelApp.pylab = 'inline'
+c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem'
+c.NotebookApp.keyfile= u'/home/ubuntu/certs/mykey.key'
+c.NotebookApp.ip = '0.0.0.0'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 8888
+c.NotebookApp.allow_root = True
+
+Esc
+:wq
+
+
+sudo apt-get install awscli
+aws configure
+
+key id : ...
+secret acces key : ...
+region : eu-west-3
+format : json
+
+aws s3 ls
+
+sudo apt-get install default-jre
+sudo apt-get install scala
+pip install py4j
+
+
+wget http://archive.apache.org/dist/spark/spark-3.3.0/spark-3.3.0-bin-hadoop3.tgz
+sudo tar -zxvf spark-3.3.0-bin-hadoop3.tgz
+
+pip3 install findspark
+pip3 install pyspark
+pip3 install pyarrow
+pip3 install pandas
+pip3 install numpy
+pip3 install pillow
+pip install tensorflow --no-cache-dir ou tensorflow cpu
+
+jupyter notebook
+https://....:8888
+thisisunsafe
+
+-----------------------------------------------------------------------------------------
+https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws/
+https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bundle/1.12.317 jar
+hadoop-aws-3.3.2.jar
+aws-java-sdk-bundle-1.12.317.jar 
+upload les dossiers dans pyenv/lib/python3.10/site-packages/pyspark/jars
+
+telecharger fichiers aws et les compile dependies
+
+intitilisatioin des lectures images
+from pyspark.sql.functions import udf, pandas_udf
+from pyspark.ml.image import ImageSchema
+from pyspark.ml.linalg import DenseVector, VectorUDT
+from pyspark.sql.types import ArrayType, IntegerType, StringType
+
+-----------------------------------------------------------------------------------------
+
+Liens ouvert bucket :
+
+https://imagesp8alexis.s3.eu-west-3.amazonaws.com/
