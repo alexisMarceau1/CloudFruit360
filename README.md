@@ -38,7 +38,7 @@ This project aims to develop an image processing pipeline capable of handling ma
 ## Results
 - Efficient feature extraction using VGG16.
 - 2D visualization of PCA-reduced data, showing clear distinctions between fruit classes.
-  [images](images/images.png)
+  ![images](images/images.png)
 - Optimized storage of reduced data for further analysis.
 
 ## Installation and Execution
