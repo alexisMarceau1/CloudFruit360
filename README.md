@@ -1,4 +1,4 @@
-# Project: Big Data Image Processing Pipeline
+# CloudFruit360
 
 ## Description
 This project aims to develop an image processing pipeline capable of handling massive data volumes in a Big Data environment. Designed for the Agritech startup "Fruits!", the project processes and analyzes fruit images for applications such as intelligent picking robots or a mobile fruit recognition app.
