@@ -73,4 +73,5 @@ This project demonstrates the development of an image processing pipeline design
    jupyter notebook --certfile=certs/mycert.pem --keyfile=certs/mykey.key --ip=0.0.0.0 --port=8888
 5. **Execute the Notebook**:
    - Load and run the provided notebook to process the data.
+     
 **For more details check the installation jupyter EC2.txt in the repo**
