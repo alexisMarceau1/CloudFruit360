@@ -51,4 +51,26 @@ This project demonstrates the development of an image processing pipeline design
 1. **Configure AWS CLI**:
    ```bash
    aws configure
+2. **Launch EC2 Instance**:
+   - Start a t2.medium Ubuntu instance
+   - Install required tools via SSH :
+   ```bash
+   sudo apt-get update
+   sudo apt-get install python3-pip python3-venv
+   sudo apt-get install default-jre scala
+   pip3 install pyspark pandas numpy pillow tensorflow
+3. **Set Up Jupyter Notebook:**:
+   - Create a virtual environment and generate SSL certificates:
+   ```bash
+   python3 -m venv pyenv
+   source pyenv/bin/activate
+   pip3 install jupyterlab
+   jupyter notebook --generate-config
+   mkdir certs && cd certs
+   openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mykey.key -out mycert.pem
+4. **Run Jupyter on EC2**:
+   ```bash
+   jupyter notebook --certfile=certs/mycert.pem --keyfile=certs/mykey.key --ip=0.0.0.0 --port=8888
+5. **Execute the Notebook**:
+   - Load and run the provided notebook to process the data.
 
