@@ -30,7 +30,7 @@ This project demonstrates the development of an image processing pipeline design
 
 ### Infrastructure
 - **Cloud**: AWS (S3 for storage, EC2 for computation).
-- **Big Data Framework**: PySpark (Python interface for Apache Spark).
+- **Big Data Framework**: PySpark.
 - **Additional Tools**:
   - Jupyter Notebook for development and visualization.
   - AWS CLI for managing cloud resources.
